@@ -1,0 +1,12 @@
+mkdir -p test/3rdparty
+rm -f test/3rdparty/esprima-1.0.0-dev
+ln -fs `nodepath esprima` test/3rdparty/esprima-1.0.0-dev
+rm -f test/3rdparty/esprima-2.7.1
+ln -fs `nodepath esprima` test/3rdparty/esprima-2.7.1
+find test -maxdepth 1 \
+	-name "*.js" -a \
+	! -name comment.js -a \
+	! -name "*harmony*.js" -a \
+	! -name identity.js \
+	-print0 \
+ | xargs -0 mocha

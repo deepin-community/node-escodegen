@@ -1,0 +1,23 @@
+# Test data
+source-contains-prebuilt-javascript-object test/compare-acorn-es2019/optional-catch-binding.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-acorn-es2020/optional-chaining.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-acorn-es6/assignment-pattern.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-acorn-es6/class-declaration.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-esprima2/export-declaration.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-esprima2/export-default-declaration.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-esprima2/exports.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-esprima2/import-with-default.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-esprima2/imports.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-fixed-harmony/spread-element.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/arrow-function.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/class-declaration.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/class-expression.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/computed-property.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/default-parameter.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/destructuring-assignment.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/for-of-statement.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/one-assignment-property.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/spread-element.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/templates-escape.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/templates.expected.min.js
+source-contains-prebuilt-javascript-object test/compare-harmony/yield-precedence.expected.min.js

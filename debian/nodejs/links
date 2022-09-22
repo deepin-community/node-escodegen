@@ -1,0 +1,2 @@
+escodegen/bin/escodegen.js /usr/bin/escodegen
+escodegen/bin/esgenerate.js /usr/bin/esgenerate
