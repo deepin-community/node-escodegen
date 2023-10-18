@@ -1,3 +1,32 @@
+node-escodegen (2.1.0+dfsg+~0.0.8-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.1.0+dfsg+~0.0.8
+  * Removed embedded chai-exclude and flcone
+  * Removed chai-exclude and fclone path reference from copyright
+  * Fixed mismatched-override warning
+
+ -- Komolehin Israel Timilehin <komolehinisrael@gmail.com>  Tue, 17 Oct 2023 07:31:37 +0000
+
+node-escodegen (2.0.0+dfsg+~0.0.7-2) unstable; urgency=medium
+
+  * Team upload
+  * Add root_modules file
+
+ -- Michael Ikwuegbu <michaelikwuegbu1@gmail.com>  Sat, 27 Aug 2022 08:27:27 +0100
+
+node-escodegen (2.0.0+dfsg+~0.0.7-1) unstable; urgency=medium
+
+  * Team upload
+  * Add needed symlinks
+  * Update Standards-Version to 4.6.1
+  * Add Provides field in debian/control file
+  * Import upstream version 2.0.0+dfsg+~0.0.7-1
+  * Add copyright for types-escodegen component
+  * Embed types-escodegen component
+
+ -- Michael Ikwuegbu <michaelikwuegbu1@gmail.com>  Sat, 13 Aug 2022 08:43:23 +0100
+
 node-escodegen (2.0.0+dfsg-2) unstable; urgency=medium
 
   * Team upload
