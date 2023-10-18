@@ -2,26 +2,12 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: escodegen
 Upstream-Contact: https://github.com/estools/escodegen/issues
 Source: https://github.com/estools/escodegen
-Files-Excluded:
+ https://registry.npmjs.org/@types/escodegen
+Files-Excluded: 
   test/3rdparty
 
 Files: *
 Copyright: 2012-2018 Yusuke Suzuki <utatane.tea@gmail.com>
-License: BSD-2-Clause
-
-Files: escodegen.js
-Copyright: 2015 Ingvar Stepanyan <me@rreverser.com>
-           2014 Ivan Nikulin <ifaaan@gmail.com>
-           2013 Irakli Gozalishvili <rfobic@gmail.com>
-           2012-2018 Yusuke Suzuki <utatane.tea@gmail.com>
-           2012-2013 Michael Ficarra <escodegen.copyright@michael.ficarra.me>
-           2012-2013 Mathias Bynens <mathias@qiwi.be>
-           2012 Robert Gust-Bardon <donate@robert.gust-bardon.org>
-           2012 Kris Kowal <kris.kowal@cixar.com>
-           2012 Joost-Wim Boekesteijn <joost-wim@boekesteijn.nl>
-           2012 John Freeman <jfreeman08@gmail.com>
-           2012 Arpad Borsos <arpad.borsos@googlemail.com>
-           2011-2012 Ariya Hidayat <ariya.hidayat@gmail.com>
 License: BSD-2-Clause
 
 Files: benchmark/old.js
@@ -37,14 +23,28 @@ Copyright: 2013 Irakli Gozalishvili <rfobic@gmail.com>
            2011-2012 Ariya Hidayat <ariya.hidayat@gmail.com>
 License: BSD-2-Clause
 
-Files: test/test.js test/harmony-esprima2.js test/harmony.js
-Copyright: 2012-2013 Yusuke Suzuki <utatane.tea@gmail.com>
-           2012 Ariya Hidayat <ariya.hidayat@gmail.com>
+Files: debian/*
+Copyright: 2016 Pirate Praveen <praveen@debian.org>
+ 2020 Yadd <yadd@debian.org>
+License: BSD-2-Clause
+
+Files: types-escodegen/*
+Copyright: Microsoft Corporation
+License: Expat
+
+Files: escodegen.js
+Copyright: 2015 Ingvar Stepanyan <me@rreverser.com>
+           2014 Ivan Nikulin <ifaaan@gmail.com>
+           2013 Irakli Gozalishvili <rfobic@gmail.com>
+           2012-2018 Yusuke Suzuki <utatane.tea@gmail.com>
+           2012-2013 Michael Ficarra <escodegen.copyright@michael.ficarra.me>
+           2012-2013 Mathias Bynens <mathias@qiwi.be>
+           2012 Robert Gust-Bardon <donate@robert.gust-bardon.org>
+           2012 Kris Kowal <kris.kowal@cixar.com>
            2012 Joost-Wim Boekesteijn <joost-wim@boekesteijn.nl>
+           2012 John Freeman <jfreeman08@gmail.com>
            2012 Arpad Borsos <arpad.borsos@googlemail.com>
-           2011 Ariya Hidayat <ariya.hidayat@gmail.com>
-           2011 Yusuke Suzuki <utatane.tea@gmail.com>
-           2011 Arpad Borsos <arpad.borsos@googlemail.com>
+           2011-2012 Ariya Hidayat <ariya.hidayat@gmail.com>
 License: BSD-2-Clause
 
 Files: test/options.js
@@ -62,18 +62,15 @@ Copyright: 2013 Yusuke Suzuki <utatane.tea@gmail.com>
            2013 Irakli Gozalishvili <rfobic@gmail.com>
 License: BSD-2-Clause
 
-Files: debian/*
-Copyright: 2016 Pirate Praveen <praveen@debian.org>
- 2020 Yadd <yadd@debian.org>
+Files: test/test.js test/harmony-esprima2.js test/harmony.js
+Copyright: 2012-2013 Yusuke Suzuki <utatane.tea@gmail.com>
+           2012 Ariya Hidayat <ariya.hidayat@gmail.com>
+           2012 Joost-Wim Boekesteijn <joost-wim@boekesteijn.nl>
+           2012 Arpad Borsos <arpad.borsos@googlemail.com>
+           2011 Ariya Hidayat <ariya.hidayat@gmail.com>
+           2011 Yusuke Suzuki <utatane.tea@gmail.com>
+           2011 Arpad Borsos <arpad.borsos@googlemail.com>
 License: BSD-2-Clause
-
-Files: debian/tests/test_modules/chai-exclude/*
-Copyright: 2017-present Saugat Acharya
-License: Expat
-
-Files: debian/tests/test_modules/fclone/*
-Copyright: 2016 Antoine Bluchet <soyuka@gmail.com>
-License: Expat
 
 License: BSD-2-Clause
  Redistribution and use in source and binary forms, with or without

@@ -15,7 +15,7 @@ Build-Depends: debhelper-compat (= 13)
  , node-esutils <!nocheck>
  , node-optionator <!nocheck>
  , node-source-map <!nocheck>
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-escodegen
 Vcs-Git: https://salsa.debian.org/js-team/node-escodegen.git
 Homepage: https://github.com/estools/escodegen
@@ -30,6 +30,7 @@ Depends: ${misc:Depends}
  , node-optionator
  , node-source-map
  , nodejs:any
+Provides: ${nodejs:Provides}
 Description: ECMAScript code generator
  This is an ECMAScript (also popularly known as JavaScript) code generator
  from Mozilla's Parser API AST.

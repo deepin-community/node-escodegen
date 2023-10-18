@@ -1,0 +1,25 @@
+{
+    "name": "@types/escodegen",
+    "version": "0.0.8",
+    "description": "TypeScript definitions for escodegen",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/escodegen",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Simon de Lang",
+            "url": "https://github.com/simondel",
+            "githubUsername": "simondel"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/escodegen"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "7612f4e440afff05a34739a1c804d3fdbc560360ba373031e47afcbe4126cb08",
+    "typeScriptVersion": "4.5"
+}
